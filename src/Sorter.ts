@@ -1,10 +1,3 @@
-
-interface Sortable{
-    length:number;
-    compare(index1:number, index2:number):boolean;
-    swap(firstInd:number, secondInd:number):void;
-}
-
 export abstract class Sorter {
     // (making a promise that children will have specific methods and properties) : define some methdos that will be implemented by child classes in the future
     abstract compare(ind1:number, ind2:number):boolean;
@@ -21,6 +14,5 @@ export abstract class Sorter {
                 }
             }
         }
-
     }
 }
