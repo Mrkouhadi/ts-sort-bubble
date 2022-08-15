@@ -1,7 +1,6 @@
 import { CharactersCollection } from "./CharactersCollection";
 import { LinkedList } from "./LinkedList";
 import { NumbersCollection } from "./NumbersCollection";
-import { Sorter } from "./Sorter";
 
 //////////// sort an array of numbers : array[]
 
@@ -17,14 +16,12 @@ import { Sorter } from "./Sorter";
         console.log("characters sorted : " + charactersCollection.data);
 
 
-////////////
+//////////// testing the sorting implmentation of linked list
 
         const linnkedList = new LinkedList();
         linnkedList.add(230);
         linnkedList.add(-43);
         linnkedList.add(89);
         linnkedList.add(0); 
-
         linnkedList.sort();
-
         linnkedList.print();
